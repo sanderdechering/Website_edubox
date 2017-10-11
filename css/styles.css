@@ -1,0 +1,64 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Raleway', sans-serif;
+	
+
+}
+span{
+	letter-spacing: 0.5px;
+	line-height: 30px;
+}
+.background-blue{
+	background-color: rgb(131, 81, 255);
+	color: white;
+	padding-top: 280px;
+	padding-bottom: 280px;
+}
+.background-white{
+	background-color: #fff;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.background-grey{
+	background-color: rgb(247,247,247);
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.background-white i{
+	color: rgb(43, 152, 242);
+	font-size: 40px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.wrapper{
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.Pacifico{
+	font-family: 'Pacifico', cursive;
+	font-weight: lighter;
+}
+
+.raleway{
+	font-family: 'Raleway', cursive;
+}
+
+h1.raleway, h2.raleway ,h3.raleway{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-weight: lighter;
+	font-family: 'Raleway', cursive;
+}
+
+h1.Pacifico, h2.Pacifico ,h3.Pacifico{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-weight: lighter;
+	font-family: 'Pacifico', cursive;
+}
+.fa{
+	font-size: 25px;
+}
