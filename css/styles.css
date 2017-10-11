@@ -10,7 +10,11 @@ span{
 	line-height: 30px;
 }
 .background-blue{
+<<<<<<< HEAD
 	background-color: rgb(43, 152, 242);
+=======
+	background-color: rgb(131, 81, 255);
+>>>>>>> f6d57e8ed39172a32f9cdd3c0116d7f76e2ca8c9
 	color: white;
 	padding-top: 280px;
 	padding-bottom: 280px;
@@ -36,7 +40,28 @@ span{
 	padding-top: 40px;
 	padding-bottom: 40px;
 }
+<<<<<<< HEAD
 h2,h3{
+=======
+
+.Pacifico{
+	font-family: 'Pacifico', cursive;
+	font-weight: lighter;
+}
+
+.raleway{
+	font-family: 'Raleway', cursive;
+}
+
+h1.raleway, h2.raleway ,h3.raleway{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-weight: lighter;
+	font-family: 'Raleway', cursive;
+}
+
+h1.Pacifico, h2.Pacifico ,h3.Pacifico{
+>>>>>>> f6d57e8ed39172a32f9cdd3c0116d7f76e2ca8c9
 	margin-top: 30px;
 	margin-bottom: 30px;
 	font-weight: lighter;
