@@ -93,5 +93,83 @@
 			</div>
 		</div>
 	</div>
+    
+    <div class="container-fluid container-video">
+         <div class="container">
+            <div class="row">
+                <div class="col-md-12 video-titel">
+                    <h1>
+                        Video
+                    </h1>
+                </div>
+                <div class="col-md-7 col-md-offset-1">
+                    <iframe class="embed-responsive" width="854" height="480" src="https://www.youtube.com/embed/5dsGWM5XGdg" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div class="col-md-4 video-text">
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui.
+                    </p>
+                </div>
+            </div>
+         </div>
+    </div>
+    
+    <div class="container-fluid container-prototype">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 prototype-title">
+                    <h1>Prototype</h1>
+                </div>
+                
+                <div class="col-md-6 prototype-text">
+                <button class="accordion">Title</button>
+                            <div class="panel">
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+                                </p>
+                            </div>
+                        <button class="accordion">Title</button>
+                            <div class="panel">
+                                <p>
+                                   Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+                                </p>
+                            </div>
+                        <button class="accordion">Title</button>
+                            <div class="panel">
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+                                </p>
+                            </div>
+                        
+                        </div>
+                    </div>
+            
+                   
+            
+                    <script>
+                        var acc = document.getElementsByClassName("accordion");
+                        var i;
+
+                        for (i = 0; i < acc.length; i++) {
+                            acc[i].onclick = function(){
+                                /* Toggle between adding and removing the "active" class,
+                                to highlight the button that controls the panel */
+                                this.classList.toggle("active");
+
+                                /* Toggle between hiding and showing the active panel */
+                                var panel = this.nextElementSibling;
+                                if (panel.style.display === "block") {
+                                    panel.style.display = "none";
+                                } else {
+                                    panel.style.display = "block";
+                                }
+                            }
+                        }   
+                    </script>
+                
+                </div>
+                    
+            </div>
+        </div>
+    
 </body>
 </html>

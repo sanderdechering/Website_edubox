@@ -10,11 +10,8 @@ span{
 	line-height: 30px;
 }
 .background-blue{
-<<<<<<< HEAD
-	background-color: rgb(43, 152, 242);
-=======
+
 	background-color: rgb(131, 81, 255);
->>>>>>> f6d57e8ed39172a32f9cdd3c0116d7f76e2ca8c9
 	color: white;
 	padding-top: 280px;
 	padding-bottom: 280px;
@@ -24,6 +21,7 @@ span{
 	padding-top: 100px;
 	padding-bottom: 100px;
 }
+
 .background-grey{
 	background-color: rgb(247,247,247);
 	padding-top: 100px;
@@ -36,13 +34,46 @@ span{
 	padding-bottom: 40px;
 }
 
+.container-video{
+    background-color: rgb(202, 38, 45);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: white;
+}
+
+
+.prototype-text{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+ button.accordion
+    {
+        background-color: rgb(131, 81, 255);
+        color: black;
+        padding: 20px;
+        width: 500px;
+        text-align: left;
+        font-size: 30px;
+        transition: 0.4s;
+        cursor: pointer;
+        outline: none;
+    }
+
+    button.accordion.active, button.accordion.hover
+    {
+        background-color:  rgb(176, 146, 252);
+    }
+
+.panel
+{
+    background-color: #FFF;
+}
+
 .wrapper{
 	padding-top: 40px;
 	padding-bottom: 40px;
 }
-<<<<<<< HEAD
-h2,h3{
-=======
 
 .Pacifico{
 	font-family: 'Pacifico', cursive;
@@ -61,7 +92,8 @@ h1.raleway, h2.raleway ,h3.raleway{
 }
 
 h1.Pacifico, h2.Pacifico ,h3.Pacifico{
->>>>>>> f6d57e8ed39172a32f9cdd3c0116d7f76e2ca8c9
+
+
 	margin-top: 30px;
 	margin-bottom: 30px;
 	font-weight: lighter;
