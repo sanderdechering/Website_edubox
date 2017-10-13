@@ -41,7 +41,9 @@ span{
     color: white;
 }
 
-
+.prototype-title{
+    padding-top: 100px;
+}
 .prototype-text{
     padding-top: 100px;
     padding-bottom: 100px;
