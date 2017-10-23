@@ -42,17 +42,89 @@ h1.Pacifico, h2.Pacifico ,h3.Pacifico{
 }
 /*------------------------------- 	CONTAINER-LANDINGBLOCK 	-------------------------------*/
 .container-landingBlock{
-	background-color: rgb(131, 81, 255);
+	background-color: #9b59b6;
 	color: white;
 	padding-top: 280px;
 	padding-bottom: 280px;
 	height:100vh;
 }
+.container-landingBlock .navbar {
+	background-color:rgba(0, 0, 0, 0.08);
+}
+.container-landingBlock .navbar-light .navbar-nav .nav-link {
+	color:rgba(0, 0, 0, 0.43);
+	font-weight:bold;
+}
+.container-landingBlock img#logo-edu-box {
+	width:120px;
+	display:block;
+}
+
+.container-landingBlock .container-fluid {
+	max-width:1200px;
+}
+
+.container-landingBlock #logo {
+	/*background-color:#6CF;*/
+	padding:0px;
+    
+}
+
+.container-landingBlock header {
+
+  background-color:#9b59b6;
+ 
+}
+.container-landingBlock section {
+  padding: 150px 0;
+}
+
+.container-landingBlock #green img {
+	width:100%;
+}
+
+.container-landingBlock h1 {
+	font-family: 'Pacifico', cursive;
+	font-size: 6.1rem;
+	margin-bottom:40px;
+}
+
+.container-landingBlock h5 {
+	margin-bottom:40px;
+}
+
+/*Button link-video*/
+.container-landingBlock #link-video {
+	text-transform: uppercase;
+}
+.container-landingBlock .btn3d {
+    transition:all .08s linear;
+    position:relative;
+    outline:medium none;
+    -moz-outline-style:none;
+    border:0px;
+    margin-right:10px;
+    margin-top:15px;
+}
+.container-landingBlock .btn3d:focus {
+    outline:medium none;
+    -moz-outline-style:none;
+}
+.container-landingBlock .btn3d:active {
+    top:9px;
+}
+.container-landingBlock .btn-primary, .btn-primary:hover {
+    box-shadow:0 0 0 1px #428bca inset, 0 0 0 2px rgba(255,255,255,0.15) inset, 0 8px 0 0 #357ebd, 0 8px 0 1px rgba(0,0,0,0.4), 0 8px 8px 1px rgba(0,0,0,0.5);
+    background-color:#428bca;
+}
+
+
 /*------------------------------- 	    CONTAINER-INTRO 	-------------------------------*/
 .container-intro{
 	background-color: #fff;
-	padding-top: 100px;
-	padding-bottom: 100px;
+	padding-top: 200px;
+	padding-bottom: 200px;
+	height:100vh;
 }
 
 .container-intro i{
@@ -63,10 +135,15 @@ h1.Pacifico, h2.Pacifico ,h3.Pacifico{
 }
 /*------------------------------- 	    CONTAINER-VIDEO  	-------------------------------*/
 .container-video{
-    background-color: rgb(202, 38, 45);
+    background-color: #4DAF7C;
     padding-top: 100px;
     padding-bottom: 100px;
     color: white;
+}
+.container-video iframe{
+	position: relative;
+  	top: 50%;
+  	transform: translateY(-50%);
 }
 /*------------------------------- 	CONTAINER-TECHNIEK 	------------------------------------*/
 .container-techniek{
@@ -100,6 +177,8 @@ h1.Pacifico, h2.Pacifico ,h3.Pacifico{
 /*------------------------------- 	CONTAINER-DOELGROEP 	-------------------------------*/
 
 .container-doelgroep{
+	background-color: #D64541;
+	color: white;
     padding-top: 100px;
     padding-bottom: 100px;
 }
