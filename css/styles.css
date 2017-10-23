@@ -2,106 +2,11 @@ body{
 	margin: 0px;
 	padding: 0px;
 	font-family: 'Raleway', sans-serif;
-	
-
 }
 span{
 	letter-spacing: 0.5px;
 	line-height: 30px;
 }
-.background-blue{
-
-	background-color: rgb(131, 81, 255);
-	color: white;
-	padding-top: 280px;
-	padding-bottom: 280px;
-}
-.background-white{
-	background-color: #fff;
-	padding-top: 100px;
-	padding-bottom: 100px;
-}
-
-.background-grey{
-	background-color: rgb(247,247,247);
-	padding-top: 100px;
-	padding-bottom: 100px;
-}
-.background-white i{
-	color: rgb(43, 152, 242);
-	font-size: 40px;
-	padding-top: 40px;
-	padding-bottom: 40px;
-}
-
-.container-video{
-    background-color: rgb(202, 38, 45);
-    padding-top: 100px;
-    padding-bottom: 100px;
-    color: white;
-}
-
-.prototype-title{
-    padding-top: 100px;
-}
-.prototype-text{
-    padding-top: 50px;
-    padding-bottom: 100px;
-}
-
- button.accordion
-    {
-        background-color: rgb(131, 81, 255);
-        color: black;
-        padding: 5px;
-        text-align: center;
-        font-size: 30px;
-        width: 650px;
-        transition: 0.4s;
-        cursor: pointer;
-        outline: none;
-        border-radius: 12px;
-        height: 50px;
-    }
-.panel p {
-    padding-top: 20px;
-    padding-bottom: 30px;
-    font-size: 15px;
-}
-
-    button.accordion.active
-    {
-        background-color:  rgb(176, 146, 252);
-    }
-
-.panel
-{
-    background-color: #FFF;
-}
-
-prototype-img{
-    width: 300px;
-    padding-left: 30px;
-}
-
-.container-doelgroep{
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
-.doelgroep-img img{
-    width: 100%;
-}
-
-.doelgroep-text{
-    font-size: 20px;
-}
-
-.doelgroep-text h2{
-    padding-bottom: 30px;
-    font-size
-}
-
-
 
 .wrapper{
 	padding-top: 40px;
@@ -135,3 +40,104 @@ h1.Pacifico, h2.Pacifico ,h3.Pacifico{
 .fa{
 	font-size: 25px;
 }
+/*------------------------------- 	CONTAINER-LANDINGBLOCK 	-------------------------------*/
+.container-landingBlock{
+	background-color: rgb(131, 81, 255);
+	color: white;
+	padding-top: 280px;
+	padding-bottom: 280px;
+	height:100vh;
+}
+/*------------------------------- 	    CONTAINER-INTRO 	-------------------------------*/
+.container-intro{
+	background-color: #fff;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.container-intro i{
+	color: rgb(43, 152, 242);
+	font-size: 40px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+/*------------------------------- 	    CONTAINER-VIDEO  	-------------------------------*/
+.container-video{
+    background-color: rgb(202, 38, 45);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: white;
+}
+/*------------------------------- 	CONTAINER-TECHNIEK 	------------------------------------*/
+.container-techniek{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+/*------------------------------- 	CONTAINER-PROTOTYPE 	-------------------------------*/
+.container-prototype{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.prototype-text{
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.container-prototype button.accordion
+{
+    background-color: rgb(131, 81, 255);
+    color: black;
+    padding: 5px;
+    text-align: center;
+    font-size: 30px;
+    width: 650px;
+    transition: 0.4s;
+    cursor: pointer;
+    outline: none;
+    border-radius: 12px;
+    height: 50px;
+}
+/*------------------------------- 	CONTAINER-DOELGROEP 	-------------------------------*/
+
+.container-doelgroep{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.doelgroep-img img{
+    width: 100%;
+}
+
+.doelgroep-text{
+    font-size: 20px;
+}
+
+.doelgroep-text h2{
+    padding-bottom: 30px;
+    font-size
+}
+
+.panel p {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-size: 15px;
+}
+
+button.accordion.active
+{
+    background-color:  rgb(176, 146, 252);
+}
+
+.panel
+{
+    background-color: #FFF;
+}
+
+prototype-img{
+    width: 300px;
+    padding-left: 30px;
+}
+
+
+
+
+
