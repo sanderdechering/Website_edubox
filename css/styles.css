@@ -44,15 +44,86 @@ h1.Pacifico, h2.Pacifico ,h3.Pacifico{
 .container-landingBlock{
 	background-color: rgb(131, 81, 255);
 	color: white;
-	padding-top: 280px;
-	padding-bottom: 280px;
+	padding-top: 200px;
+	padding-bottom: 200px;
 	height:100vh;
 }
+.container-landingBlock .navbar {
+	background-color:rgba(0, 0, 0, 0.08);
+}
+.container-landingBlock .navbar-light .navbar-nav .nav-link {
+	color:rgba(0, 0, 0, 0.43);
+	font-weight:bold;
+}
+.container-landingBlock img#logo-edu-box {
+	width:120px;
+	display:block;
+}
+
+.container-landingBlock .container-fluid {
+	max-width:1200px;
+}
+
+.container-landingBlock #logo {
+	
+	padding:0px;
+    min-height:250px;
+}
+.container-landingBlock #logo h1 {
+	margin-top:100px;
+}
+
+.container-landingBlock header {
+	
+}
+.container-landingBlock section {
+  padding: 150px 0;
+}
+
+.container-landingBlock #green img {
+	width:100%;
+}
+
+.container-landingBlock h1 {
+	font-family: 'Pacifico', cursive;
+	font-size: 6.1rem;
+	margin-bottom:40px;
+}
+.container-landingBlock h5 {
+	margin-bottom:40px;
+}
+
+/*Button link-video*/
+.container-landingBlock #link-video {
+	text-transform:uppercase;
+}
+.container-landingBlock .btn3d {
+    transition:all .08s linear;
+    position:relative;
+    outline:medium none;
+    -moz-outline-style:none;
+    border:0px;
+    margin-right:10px;
+    margin-top:15px;
+}
+.container-landingBlock .btn3d:focus {
+    outline:medium none;
+    -moz-outline-style:none;
+}
+.container-landingBlock .btn3d:active {
+    top:9px;
+}
+.container-landingBlock .btn-primary, .btn-primary:hover {
+    box-shadow:0 0 0 1px #428bca inset, 0 0 0 2px rgba(255,255,255,0.15) inset, 0 8px 0 0 #357ebd, 0 8px 0 1px rgba(0,0,0,0.4), 0 8px 8px 1px rgba(0,0,0,0.5);
+    background-color:#428bca;
+}
+
 /*------------------------------- 	    CONTAINER-INTRO 	-------------------------------*/
 .container-intro{
 	background-color: #fff;
-	padding-top: 100px;
+	padding-top: 200px;
 	padding-bottom: 100px;
+	height: 100vh;
 }
 
 .container-intro i{
@@ -60,6 +131,12 @@ h1.Pacifico, h2.Pacifico ,h3.Pacifico{
 	font-size: 40px;
 	padding-top: 40px;
 	padding-bottom: 40px;
+}
+.container-intro .wrapper{
+	display: block;
+    vertical-align: middle;
+	margin: 0 auto;
+
 }
 /*------------------------------- 	    CONTAINER-VIDEO  	-------------------------------*/
 .container-video{
@@ -72,6 +149,40 @@ h1.Pacifico, h2.Pacifico ,h3.Pacifico{
 .container-techniek{
 	padding-top: 100px;
 	padding-bottom: 100px;
+}
+
+.container-techniek #techniek {
+	background-color:#14876b;
+}
+
+.container-techniek #illustration_arduino {
+	width:400px;
+	height:400px;
+	background-color:#0F0;
+}
+
+.container-techniek #yellow {
+	background-color:yellow;
+}
+.container-techniek #blue {
+	background-color:#33F;
+}
+
+.container-techniek .slide-content h1{
+	font-size:2.5rem;
+}
+.container-techniek .slide-content p {
+	font-size:1rem;
+}
+
+.container-techniek a.carousel-control-prev, a.carousel-control-next {
+	width:20px;
+}
+.container-techniek .slide-image {
+	padding-left:20px;
+}
+.container-techniek ol.carousel-indicators {
+	top:300px;
 }
 
 /*------------------------------- 	CONTAINER-PROTOTYPE 	-------------------------------*/
