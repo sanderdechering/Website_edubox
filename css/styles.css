@@ -196,17 +196,7 @@ h1.Pacifico, h2.Pacifico ,h3.Pacifico{
 }
 .collapse #demo
 {
-    background-color: rgb(131, 81, 255);
-    color: black;
-    padding: 5px;
-    text-align: center;
-    font-size: 30px;
-    width: 650px;
-    transition: 0.4s;
-    cursor: pointer;
-    outline: none;
-    border-radius: 12px;
-    height: 50px;
+ 
 }
 /*------------------------------- 	CONTAINER-DOELGROEP 	-------------------------------*/
 
