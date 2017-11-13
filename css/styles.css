@@ -2,6 +2,7 @@ body{
 	margin: 0px;
 	padding: 0px;
 	font-family: 'Raleway', sans-serif;
+
 }
 span{
 	letter-spacing: 0.5px;
@@ -25,13 +26,11 @@ span{
 h1.raleway, h2.raleway ,h3.raleway{
 	margin-top: 30px;
 	margin-bottom: 30px;
-	font-weight: lighter;
+
 	font-family: 'Raleway', cursive;
 }
 
-h1.Pacifico, h2.Pacifico ,h3.Pacifico{
-
-
+h1.pacifico, h2.pacifico ,h3.pacifico{
 	margin-top: 30px;
 	margin-bottom: 30px;
 	font-weight: lighter;
@@ -40,13 +39,20 @@ h1.Pacifico, h2.Pacifico ,h3.Pacifico{
 .fa{
 	font-size: 25px;
 }
+.container-fluid{
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+.line{display:block; margin:25px; margin-top: 20px;}
+.line h3{font-size:20px; text-align border-bottom:1px solid black; position:relative; margin-bottom: 20px;}
+.line h3 span { background-color: white; position: relative; top: 10px; padding: 0 10px;}
 /*------------------------------- 	CONTAINER-LANDINGBLOCK 	-------------------------------*/
 .container-landingBlock{
-	background-color: rgb(131, 81, 255);
+	background-color: #9B59B6;
 	color: white;
 	padding-top: 200px;
 	padding-bottom: 200px;
-	height:100vh;
+	height: auto;
 }
 .container-landingBlock .navbar {
 	background-color:rgba(0, 0, 0, 0.08);
@@ -122,8 +128,9 @@ h1.Pacifico, h2.Pacifico ,h3.Pacifico{
 .container-intro{
 	background-color: #fff;
 	padding-top: 200px;
-	padding-bottom: 100px;
-	height: 100vh;
+	padding-bottom: 200px;
+	height: auto;
+
 }
 
 .container-intro i{
@@ -131,12 +138,6 @@ h1.Pacifico, h2.Pacifico ,h3.Pacifico{
 	font-size: 40px;
 	padding-top: 40px;
 	padding-bottom: 40px;
-}
-.container-intro .wrapper{
-	display: block;
-    vertical-align: middle;
-	margin: 0 auto;
-
 }
 /*------------------------------- 	    CONTAINER-VIDEO  	-------------------------------*/
 .container-video{
@@ -147,25 +148,31 @@ h1.Pacifico, h2.Pacifico ,h3.Pacifico{
 }
 /*------------------------------- 	CONTAINER-TECHNIEK 	------------------------------------*/
 .container-techniek{
-	padding-top: 100px;
-	padding-bottom: 100px;
+	padding-top: 150px;
+	padding-bottom: 150px;
+	background-color:#3FC380;
+	color: white;
 }
-
+.row{
+	margin-left: 0px;
+	margin-right: 0px;
+}
 .container-techniek #techniek {
-	background-color:#14876b;
+	
+
 }
 
 .container-techniek #illustration_arduino {
 	width:400px;
 	height:400px;
-	background-color:#0F0;
+	
 }
 
 .container-techniek #yellow {
-	background-color:yellow;
+
 }
 .container-techniek #blue {
-	background-color:#33F;
+	
 }
 
 .container-techniek .slide-content h1{
@@ -187,8 +194,14 @@ h1.Pacifico, h2.Pacifico ,h3.Pacifico{
 
 /*------------------------------- 	CONTAINER-PROTOTYPE 	-------------------------------*/
 .container-prototype{
-	padding-top: 100px;
+	height: auto;
+	padding-top: 200px;
 	padding-bottom: 100px;
+}
+.container-prototype .wrapper{
+	display: block;
+    vertical-align: middle;
+	margin: 0 auto;
 }
 .prototype-text{
     padding-top: 50px;
@@ -204,19 +217,19 @@ h1.Pacifico, h2.Pacifico ,h3.Pacifico{
     padding-top: 100px;
     padding-bottom: 100px;
 }
-.doelgroep-img img{
-    width: 100%;
-}
 
 .doelgroep-text{
-    font-size: 20px;
+    font-size: 15px;
+    margin-bottom: 80px;
 }
 
 .doelgroep-text h2{
     padding-bottom: 30px;
     font-size
 }
-
+.doelgroep-img{
+	text-align: center;
+}
 .panel p {
     padding-top: 20px;
     padding-bottom: 30px;
@@ -241,9 +254,10 @@ prototype-img{
 /*------------------CONTAINER OVERONS----------------*/
 
 .container-overons{
-    background-color: rgb(254, 188, 254);
+    background-color: #59ABE3;
     padding-top: 100px;
     padding-bottom: 100px;
+    color: white;
  }
 
 .container-overons h2{
