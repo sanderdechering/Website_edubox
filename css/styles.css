@@ -1,6 +1,6 @@
 body{
-	margin: 0px;
-	padding: 0px;
+	margin: 0;
+	padding: 0;
 	font-family: 'Raleway', sans-serif;
 
 }
@@ -40,10 +40,10 @@ h1.pacifico, h2.pacifico ,h3.pacifico{
 	font-size: 25px;
 }
 .container-fluid{
-	padding-left: 0px !important;
-	padding-right: 0px !important;
+	padding-left: 0 !important;
+	padding-right: 0 !important;
 }
-.line{display:block; margin:25px; margin-top: 20px;}
+.line{display:block; margin:25px; margin-top:20px;}
 .line h3{font-size:20px; text-align border-bottom:1px solid black; position:relative; margin-bottom: 20px;}
 .line h3 span { background-color: white; position: relative; top: 10px; padding: 0 10px;}
 /*------------------------------- 	CONTAINER-LANDINGBLOCK 	-------------------------------*/
@@ -153,10 +153,6 @@ h1.pacifico, h2.pacifico ,h3.pacifico{
 	background-color:#3FC380;
 	color: white;
 }
-.row{
-	margin-left: 0px;
-	margin-right: 0px;
-}
 .container-techniek #techniek {
 	
 
@@ -193,6 +189,7 @@ h1.pacifico, h2.pacifico ,h3.pacifico{
 }
 
 /*------------------------------- 	CONTAINER-PROTOTYPE 	-------------------------------*/
+
 .container-prototype{
 	height: auto;
 	padding-top: 200px;
@@ -206,10 +203,6 @@ h1.pacifico, h2.pacifico ,h3.pacifico{
 .prototype-text{
     padding-top: 50px;
     padding-bottom: 100px;
-}
-.collapse #demo
-{
- 
 }
 /*------------------------------- 	CONTAINER-DOELGROEP 	-------------------------------*/
 
